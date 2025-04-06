@@ -13,17 +13,19 @@
       <xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
       <xsd:element name="Phone" type="PhoneType" minOccurs="1" maxOccurs="unbounded"/>
       <xsd:element name="Address" type="AddressInfo" minOccurs="1" maxOccurs="1"/>
-      <xsd:attribute name="Rating" type="xsd:float" use="optional"/>
     </xsd:sequence>
+    <xsd:attribute name="Rating" type="xsd:float" use="optional"/>
   </xsd:complexType>
 
   <xsd:complexType name="AddressInfo">
-    <xsd:element name="number" type="xsd:integer" minOccurs="1" maxOccurs="1"/>
-    <xsd:element name="street" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-    <xsd:element name="city" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-    <xsd:element name="state" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-    <xsd:element name="zip" type="xsd:integer" minOccurs="1" maxOccurs="1"/>
-    <xsd:attribute name="nearstAirport" type="xsd:string" use="required"/>
+    <xsd:sequence>
+      <xsd:element name="number" type="xsd:integer" minOccurs="1" maxOccurs="1"/>
+      <xsd:element name="street" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+      <xsd:element name="city" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+      <xsd:element name="state" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+      <xsd:element name="zip" type="xsd:integer" minOccurs="1" maxOccurs="1"/>
+    </xsd:sequence>
+    <xsd:attribute name="nearestAirport" type="xsd:string" use="required"/>
   </xsd:complexType>
 
   <xsd:simpleType name="PhoneType">
