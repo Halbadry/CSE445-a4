@@ -18,9 +18,7 @@
   </xsd:complexType>
 
   <xsd:complexType name="AddressInfo">
-    <xsd:sequence>
-      <xsd:element name="number" type="xsd:integer" minOccurs="1" maxOccurs="1"/>
-    </xsd:sequence>
+    <xsd:attribute name="number" type="xsd:string" use="required"/>
     <xsd:attribute name="street" type="xsd:string" use="required"/>
     <xsd:attribute name="city" type="xsd:string" use="required"/>
     <xsd:attribute name="state" type="xsd:string" use="required"/>
