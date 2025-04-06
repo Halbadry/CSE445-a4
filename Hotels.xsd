@@ -22,7 +22,7 @@
     <xsd:attribute name="street" type="xsd:string" use="required"/>
     <xsd:attribute name="city" type="xsd:string" use="required"/>
     <xsd:attribute name="state" type="xsd:string" use="required"/>
-    <xsd:attribute name="zip" type="xsd:integer" use="required"/>
+    <xsd:attribute name="zip" type="xsd:string" use="required"/>
     <xsd:attribute name="nearstAirport" type="xsd:string" use="required"/>
   </xsd:complexType>
 
