@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <Hotel>
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address 
+      number="11" street="E. 7th St" city="Tempe" state="AZ" zip="85281" nearestAirport="SkyHarbor"/>
+    <Rating>4.2</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Tempe Mission Palms</Name>
+    <Phone>480-894-1400</Phone>
+    <Address 
+      number="60" street="E 5th St" city="Tempe" state="AZ" zip="85281" nearestAirport="SkyHarbor"/>
+    <Rating>4.5</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Graduate Tempe</Name>
+    <Phone>480-967-9431</Phone>
+    <Phone>888-888-8888</Phone>
+    <Address 
+      number="225" street="E Apache Blvd" city="Tempe" state="AZ" zip="85281" nearestAirport="SkyHarbor"/>
+    <Rating>4.0</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Aloft Tempe</Name>
+    <Phone>480-621-3300</Phone>
+    <Address 
+      number="951" street="E Playa del Norte Dr" city="Tempe" state="AZ" zip="85281" nearestAirport="SkyHarbor"/>
+    <Rating>4.1</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Canopy by Hilton Tempe Downtown</Name>
+    <Phone>480-675-2000</Phone>
+    <Address 
+      number="108" street="E University Dr" city="Tempe" state="AZ" zip="85281" nearestAirport="SkyHarbor"/>
+    <Rating>4.6</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Moxy Phoenix Tempe</Name>
+    <Phone>480-968-3451</Phone>
+    <Address 
+      number="1333" street="S Rural Rd" city="Tempe" state="AZ" zip="85281" nearestAirport="SkyHarbor"/>
+    <Rating>4.3</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Hyatt Place Tempe Phoenix University</Name>
+    <Phone>480-219-1482</Phone>
+    <Address 
+      number="601" street="E 6th St" city="Tempe" state="AZ" zip="85281" nearestAirport="SkyHarbor"/>
+    <Rating>4.4</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Courtyard by Marriott Tempe Downtown</Name>
+    <Phone>480-966-2800</Phone>
+    <Address 
+      number="601" street="S Ash Ave" city="Tempe" state="AZ" zip="85281" nearestAirport="SkyHarbor"/>
+    <Rating>4.2</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>MOXY Phoenix Tempe/ASU Area</Name>
+    <Phone>480-927-9700</Phone>
+    <Address 
+      number="1333" street="S Rural Rd" city="Tempe" state="AZ" zip="85281" nearestAirport="SkyHarbor"/>
+    <Rating>4.0</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Hampton Inn and Suites Tempe/Phoenix Airport</Name>
+    <Phone>480-410-6400</Phone>
+    <Address number="1550" street="S 52nd St" city="Tempe" state="AZ" zip="85281" nearestAirport="SkyHarbor"/>
+    <Rating>4.5</Rating>
+  </Hotel>
+
+</Hotel>
